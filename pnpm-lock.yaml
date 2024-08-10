@@ -1,0 +1,1183 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      vue:
+        specifier: ^3.2.25
+        version: 3.4.37(typescript@4.9.5)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^2.0.0
+        version: 2.3.4(vite@2.9.18)(vue@3.4.37(typescript@4.9.5))
+      typescript:
+        specifier: ^4.4.4
+        version: 4.9.5
+      vite:
+        specifier: ^2.7.2
+        version: 2.9.18
+      vue-tsc:
+        specifier: ^0.29.8
+        version: 0.29.8(typescript@4.9.5)
+
+packages:
+
+  '@babel/helper-string-parser@7.24.8':
+    resolution: {integrity: sha1-WzMpyaWIA9XfQl5XhYZYgagcpI0=, tarball: https://registry.npm.qianxin-inc.cn/@babel/helper-string-parser/download/@babel/helper-string-parser-7.24.8.tgz}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.24.7':
+    resolution: {integrity: sha1-dbiJz6+eNcKq9Czw1yyOkXGSUds=, tarball: https://registry.npm.qianxin-inc.cn/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.24.7.tgz}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/parser@7.25.3':
+    resolution: {integrity: sha1-kfsSZ2jZRJZiY/BlerIipkK4IGU=, tarball: https://registry.npm.qianxin-inc.cn/@babel/parser/download/@babel/parser-7.25.3.tgz}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/types@7.25.2':
+    resolution: {integrity: sha1-VfsjH33JWM1p6hQaTCmX6BlkYSU=, tarball: https://registry.npm.qianxin-inc.cn/@babel/types/download/@babel/types-7.25.2.tgz}
+    engines: {node: '>=6.9.0'}
+
+  '@emmetio/abbreviation@2.3.3':
+    resolution: {integrity: sha1-7SuI/je5ciktYCbHxUCq+IfOy24=, tarball: https://registry.npm.qianxin-inc.cn/@emmetio/abbreviation/download/@emmetio/abbreviation-2.3.3.tgz}
+
+  '@emmetio/css-abbreviation@2.1.8':
+    resolution: {integrity: sha1-t4UxNIbrpst+tiOtOTeMThBj3AA=, tarball: https://registry.npm.qianxin-inc.cn/@emmetio/css-abbreviation/download/@emmetio/css-abbreviation-2.1.8.tgz}
+
+  '@emmetio/scanner@1.0.4':
+    resolution: {integrity: sha1-6c3GcZT9kfi36xQQFL5PLQhsFfE=, tarball: https://registry.npm.qianxin-inc.cn/@emmetio/scanner/download/@emmetio/scanner-1.0.4.tgz}
+
+  '@esbuild/linux-loong64@0.14.54':
+    resolution: {integrity: sha1-3ipL5ni9TQ0f+7hubed5zeWZkCg=, tarball: https://registry.npm.qianxin-inc.cn/@esbuild/linux-loong64/download/@esbuild/linux-loong64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@jridgewell/sourcemap-codec@1.5.0':
+    resolution: {integrity: sha1-MYi8snOkFLDSFf0ipYVAuYm5QJo=, tarball: https://registry.npm.qianxin-inc.cn/@jridgewell/sourcemap-codec/download/@jridgewell/sourcemap-codec-1.5.0.tgz}
+
+  '@vitejs/plugin-vue@2.3.4':
+    resolution: {integrity: sha1-lmpieQYOstnRoC6hozGvBxr9z54=, tarball: https://registry.npm.qianxin-inc.cn/@vitejs/plugin-vue/download/@vitejs/plugin-vue-2.3.4.tgz}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      vite: ^2.5.10
+      vue: ^3.2.25
+
+  '@volar/code-gen@0.29.8':
+    resolution: {integrity: sha1-2xpL8pyuuhMSZb7Z2+lqGgtm6jU=, tarball: https://registry.npm.qianxin-inc.cn/@volar/code-gen/download/@volar/code-gen-0.29.8.tgz}
+
+  '@volar/html2pug@0.29.8':
+    resolution: {integrity: sha1-Lpf6KWjc3+DbvGewzSq0xEABhzg=, tarball: https://registry.npm.qianxin-inc.cn/@volar/html2pug/download/@volar/html2pug-0.29.8.tgz}
+    deprecated: 'WARNING: This project has been renamed to @johnsoncodehk/html2pug. Install using @johnsoncodehk/html2pug instead.'
+
+  '@volar/shared@0.29.8':
+    resolution: {integrity: sha1-5jXd8svPMH2pMutLmOM8Mg09KZE=, tarball: https://registry.npm.qianxin-inc.cn/@volar/shared/download/@volar/shared-0.29.8.tgz}
+
+  '@volar/source-map@0.29.8':
+    resolution: {integrity: sha1-MpmgroauC3K02z5QSZ2LsoXY6bI=, tarball: https://registry.npm.qianxin-inc.cn/@volar/source-map/download/@volar/source-map-0.29.8.tgz}
+
+  '@volar/transforms@0.29.8':
+    resolution: {integrity: sha1-74BwEKyQdyoGXnz1BQm2QztT41U=, tarball: https://registry.npm.qianxin-inc.cn/@volar/transforms/download/@volar/transforms-0.29.8.tgz}
+
+  '@volar/vue-code-gen@0.29.8':
+    resolution: {integrity: sha1-MkAdUuJXDXdfzGy8g6vv7vZcSM0=, tarball: https://registry.npm.qianxin-inc.cn/@volar/vue-code-gen/download/@volar/vue-code-gen-0.29.8.tgz}
+
+  '@vscode/emmet-helper@2.9.2':
+    resolution: {integrity: sha1-zV0eZOcTitdjAOjLpf2E8cA+E+4=, tarball: https://registry.npm.qianxin-inc.cn/@vscode/emmet-helper/download/@vscode/emmet-helper-2.9.2.tgz}
+
+  '@vue/compiler-core@3.4.37':
+    resolution: {integrity: sha1-Vds5AOCUJMZcOREaBaPG5pjzceM=, tarball: https://registry.npm.qianxin-inc.cn/@vue/compiler-core/download/@vue/compiler-core-3.4.37.tgz}
+
+  '@vue/compiler-dom@3.4.37':
+    resolution: {integrity: sha1-ofz3nih8uChUUIL/GvqGMEgKMEQ=, tarball: https://registry.npm.qianxin-inc.cn/@vue/compiler-dom/download/@vue/compiler-dom-3.4.37.tgz}
+
+  '@vue/compiler-sfc@3.4.37':
+    resolution: {integrity: sha1-ivrxqGy4SUIsdl1Daboehf/+AjQ=, tarball: https://registry.npm.qianxin-inc.cn/@vue/compiler-sfc/download/@vue/compiler-sfc-3.4.37.tgz}
+
+  '@vue/compiler-ssr@3.4.37':
+    resolution: {integrity: sha1-t14cdsMYT4b6nwuk1h0TvGr8v4o=, tarball: https://registry.npm.qianxin-inc.cn/@vue/compiler-ssr/download/@vue/compiler-ssr-3.4.37.tgz}
+
+  '@vue/reactivity@3.4.37':
+    resolution: {integrity: sha1-WhmVY+qrUe2flN3wqC+RebzAFnY=, tarball: https://registry.npm.qianxin-inc.cn/@vue/reactivity/download/@vue/reactivity-3.4.37.tgz}
+
+  '@vue/runtime-core@3.4.37':
+    resolution: {integrity: sha1-P+c0pmbbeEK+pBhaE/dpeiECtxk=, tarball: https://registry.npm.qianxin-inc.cn/@vue/runtime-core/download/@vue/runtime-core-3.4.37.tgz}
+
+  '@vue/runtime-dom@3.4.37':
+    resolution: {integrity: sha1-IZ+EV3AnED3m3ccTUdgjfHwWraw=, tarball: https://registry.npm.qianxin-inc.cn/@vue/runtime-dom/download/@vue/runtime-dom-3.4.37.tgz}
+
+  '@vue/server-renderer@3.4.37':
+    resolution: {integrity: sha1-00FCW7U5Wj9u1wVy6lw+3vq5Lyg=, tarball: https://registry.npm.qianxin-inc.cn/@vue/server-renderer/download/@vue/server-renderer-3.4.37.tgz}
+    peerDependencies:
+      vue: 3.4.37
+
+  '@vue/shared@3.4.37':
+    resolution: {integrity: sha1-T0wIouc9pRKne0cWXPWf+8G1reg=, tarball: https://registry.npm.qianxin-inc.cn/@vue/shared/download/@vue/shared-3.4.37.tgz}
+
+  acorn@7.4.1:
+    resolution: {integrity: sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo=, tarball: https://registry.npm.qianxin-inc.cn/acorn/download/acorn-7.4.1.tgz}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  asap@2.0.6:
+    resolution: {integrity: sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=, tarball: https://registry.npm.qianxin-inc.cn/asap/download/asap-2.0.6.tgz}
+
+  assert-never@1.2.1:
+    resolution: {integrity: sha1-EfDjY78UYgX7CBk7XHuQ9NHPRP4=, tarball: https://registry.npm.qianxin-inc.cn/assert-never/download/assert-never-1.2.1.tgz}
+
+  babel-walk@3.0.0-canary-5:
+    resolution: {integrity: sha1-9m7Ncpg1eu5ElV8jWm71QhkQSxE=, tarball: https://registry.npm.qianxin-inc.cn/babel-walk/download/babel-walk-3.0.0-canary-5.tgz}
+    engines: {node: '>= 10.0.0'}
+
+  call-bind@1.0.7:
+    resolution: {integrity: sha1-BgFlmcQMVkmMGHadJzC+JCtvo7k=, tarball: https://registry.npm.qianxin-inc.cn/call-bind/download/call-bind-1.0.7.tgz}
+    engines: {node: '>= 0.4'}
+
+  character-parser@2.2.0:
+    resolution: {integrity: sha1-x84o821LzZdE5f/CxfzeHHMmH8A=, tarball: https://registry.npm.qianxin-inc.cn/character-parser/download/character-parser-2.2.0.tgz}
+
+  constantinople@4.0.1:
+    resolution: {integrity: sha1-De8RP6Dk3I3oMzGlz3nIsyUhMVE=, tarball: https://registry.npm.qianxin-inc.cn/constantinople/download/constantinople-4.0.1.tgz}
+
+  csstype@3.1.3:
+    resolution: {integrity: sha1-2A/ylNEU+w5qxQD7+FtgE31+/4E=, tarball: https://registry.npm.qianxin-inc.cn/csstype/download/csstype-3.1.3.tgz}
+
+  define-data-property@1.1.4:
+    resolution: {integrity: sha1-iU3BQbt9MGCuQ2b2oBB+aPvkjF4=, tarball: https://registry.npm.qianxin-inc.cn/define-data-property/download/define-data-property-1.1.4.tgz}
+    engines: {node: '>= 0.4'}
+
+  doctypes@1.1.0:
+    resolution: {integrity: sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk=, tarball: https://registry.npm.qianxin-inc.cn/doctypes/download/doctypes-1.1.0.tgz}
+
+  dom-serializer@1.4.1:
+    resolution: {integrity: sha1-3l1Bsa6ikCFdxFptrorc8dMuLTA=, tarball: https://registry.npm.qianxin-inc.cn/dom-serializer/download/dom-serializer-1.4.1.tgz}
+
+  domelementtype@2.3.0:
+    resolution: {integrity: sha1-XEXo6GmVJiYzHXqrMm0B2vZdWJ0=, tarball: https://registry.npm.qianxin-inc.cn/domelementtype/download/domelementtype-2.3.0.tgz}
+
+  domhandler@4.3.1:
+    resolution: {integrity: sha1-jXkgM0FvWdaLwDpap7AYwcqJJ5w=, tarball: https://registry.npm.qianxin-inc.cn/domhandler/download/domhandler-4.3.1.tgz}
+    engines: {node: '>= 4'}
+
+  domutils@2.8.0:
+    resolution: {integrity: sha1-RDfe9dtuLR9dbuhZvZXKfQIEgTU=, tarball: https://registry.npm.qianxin-inc.cn/domutils/download/domutils-2.8.0.tgz}
+
+  emmet@2.4.4:
+    resolution: {integrity: sha1-gBqtZGWdx28wAxMNt2fXenisKY4=, tarball: https://registry.npm.qianxin-inc.cn/emmet/download/emmet-2.4.4.tgz}
+
+  entities@2.2.0:
+    resolution: {integrity: sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=, tarball: https://registry.npm.qianxin-inc.cn/entities/download/entities-2.2.0.tgz}
+
+  entities@3.0.1:
+    resolution: {integrity: sha1-K4h8piWF6W2zkDSC0zbBAGwwAdQ=, tarball: https://registry.npm.qianxin-inc.cn/entities/download/entities-3.0.1.tgz}
+    engines: {node: '>=0.12'}
+
+  entities@5.0.0:
+    resolution: {integrity: sha1-sqtR/kDZlYF5eex53WIRVMPA9is=, tarball: https://registry.npm.qianxin-inc.cn/entities/download/entities-5.0.0.tgz}
+    engines: {node: '>=0.12'}
+
+  es-define-property@1.0.0:
+    resolution: {integrity: sha1-x/rvvf+LJpbPX0aSHt+3fMS6OEU=, tarball: https://registry.npm.qianxin-inc.cn/es-define-property/download/es-define-property-1.0.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  es-errors@1.3.0:
+    resolution: {integrity: sha1-BfdaJdq5jk+x3NXhRywFRtUFfI8=, tarball: https://registry.npm.qianxin-inc.cn/es-errors/download/es-errors-1.3.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  esbuild-android-64@0.14.54:
+    resolution: {integrity: sha1-UF9BgyiEMTu6/7J3BLi8qi2GFr4=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-android-64/download/esbuild-android-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+
+  esbuild-android-arm64@0.14.54:
+    resolution: {integrity: sha1-jOadfKuklkbgCZaP5XVKIamHF3E=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-android-arm64/download/esbuild-android-arm64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+
+  esbuild-darwin-64@0.14.54:
+    resolution: {integrity: sha1-JLpnuajLiQo8CNkBj4h8wiHN2iU=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-darwin-64/download/esbuild-darwin-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+
+  esbuild-darwin-arm64@0.14.54:
+    resolution: {integrity: sha1-P3zbeIiO4F5IjSUKK9qrH6Zxv3M=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-darwin-arm64/download/esbuild-darwin-arm64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+
+  esbuild-freebsd-64@0.14.54:
+    resolution: {integrity: sha1-CSUPmXpW7UZQ8+GXnJBf/EC76U0=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-freebsd-64/download/esbuild-freebsd-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+
+  esbuild-freebsd-arm64@0.14.54:
+    resolution: {integrity: sha1-uvtG7QT8X5fL2wFthpR6eVefjkg=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-freebsd-arm64/download/esbuild-freebsd-arm64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  esbuild-linux-32@0.14.54:
+    resolution: {integrity: sha1-4qjEqO/cNVQFMlAz/OvrlB94H+U=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-32/download/esbuild-linux-32-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+
+  esbuild-linux-64@0.14.54:
+    resolution: {integrity: sha1-3l/boclWZs9yNp9StAsDvnEiZlI=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-64/download/esbuild-linux-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+
+  esbuild-linux-arm64@0.14.54:
+    resolution: {integrity: sha1-2uTNQq6Xh0aLalwVjaTIToOwzos=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-arm64/download/esbuild-linux-arm64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+
+  esbuild-linux-arm@0.14.54:
+    resolution: {integrity: sha1-osHf9tDyHb6PxpmKEiZ1Uz3fzVk=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-arm/download/esbuild-linux-arm-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+
+  esbuild-linux-mips64le@0.14.54:
+    resolution: {integrity: sha1-2ZGOnky5cvjW2ujoZVv57hMe2jQ=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-mips64le/download/esbuild-linux-mips64le-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+
+  esbuild-linux-ppc64le@0.14.54:
+    resolution: {integrity: sha1-P5oPbUEHP7GmQGgIRcfeUplfE34=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-ppc64le/download/esbuild-linux-ppc64le-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+
+  esbuild-linux-riscv64@0.14.54:
+    resolution: {integrity: sha1-YYhTwCgXimGDe8eZ0gE9RpXkUcg=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-riscv64/download/esbuild-linux-riscv64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+
+  esbuild-linux-s390x@0.14.54:
+    resolution: {integrity: sha1-0YhcTFp2u7Wg/hguLIxg654p8qY=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-linux-s390x/download/esbuild-linux-s390x-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+
+  esbuild-netbsd-64@0.14.54:
+    resolution: {integrity: sha1-aa6Rei/yQbffHb8iuvBL0zA0noE=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-netbsd-64/download/esbuild-netbsd-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+
+  esbuild-openbsd-64@0.14.54:
+    resolution: {integrity: sha1-20yElSh6NQpnkN4i7eokelfF1Hs=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-openbsd-64/download/esbuild-openbsd-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+
+  esbuild-sunos-64@0.14.54:
+    resolution: {integrity: sha1-VCh+49pz04RLchwhvIDB3H4b99o=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-sunos-64/download/esbuild-sunos-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+
+  esbuild-windows-32@0.14.54:
+    resolution: {integrity: sha1-+Kr5pWZ2MLQPD7OqN78Bu9NAzjE=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-windows-32/download/esbuild-windows-32-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+
+  esbuild-windows-64@0.14.54:
+    resolution: {integrity: sha1-v1S1G9PpsPGIb/2yJKQXYDHqCvQ=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-windows-64/download/esbuild-windows-64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+
+  esbuild-windows-arm64@0.14.54:
+    resolution: {integrity: sha1-k30VZ1oV5LDk+v26o6Aad2or6YI=, tarball: https://registry.npm.qianxin-inc.cn/esbuild-windows-arm64/download/esbuild-windows-arm64-0.14.54.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+
+  esbuild@0.14.54:
+    resolution: {integrity: sha1-i0Tc8rDxpm/CJFmUPcz0d1NemqI=, tarball: https://registry.npm.qianxin-inc.cn/esbuild/download/esbuild-0.14.54.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+
+  estree-walker@2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: https://registry.npm.qianxin-inc.cn/estree-walker/download/estree-walker-2.0.2.tgz}
+
+  fsevents@2.3.3:
+    resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=, tarball: https://registry.npm.qianxin-inc.cn/fsevents/download/fsevents-2.3.3.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+
+  function-bind@1.1.2:
+    resolution: {integrity: sha1-LALYZNl/PqbIgwxGTL0Rq26rehw=, tarball: https://registry.npm.qianxin-inc.cn/function-bind/download/function-bind-1.1.2.tgz}
+
+  get-intrinsic@1.2.4:
+    resolution: {integrity: sha1-44X1pLUifUScPqu60FSU7wq76t0=, tarball: https://registry.npm.qianxin-inc.cn/get-intrinsic/download/get-intrinsic-1.2.4.tgz}
+    engines: {node: '>= 0.4'}
+
+  gopd@1.0.1:
+    resolution: {integrity: sha1-Kf923mnax0ibfAkYpXiOVkd8Myw=, tarball: https://registry.npm.qianxin-inc.cn/gopd/download/gopd-1.0.1.tgz}
+
+  has-property-descriptors@1.0.2:
+    resolution: {integrity: sha1-lj7X0HHce/XwhMW/vg0bYiJYaFQ=, tarball: https://registry.npm.qianxin-inc.cn/has-property-descriptors/download/has-property-descriptors-1.0.2.tgz}
+
+  has-proto@1.0.3:
+    resolution: {integrity: sha1-sx3f6bDm6ZFFNqarKGQm0CFPd/0=, tarball: https://registry.npm.qianxin-inc.cn/has-proto/download/has-proto-1.0.3.tgz}
+    engines: {node: '>= 0.4'}
+
+  has-symbols@1.0.3:
+    resolution: {integrity: sha1-u3ssQ0klHc6HsSX3vfh0qnyLOfg=, tarball: https://registry.npm.qianxin-inc.cn/has-symbols/download/has-symbols-1.0.3.tgz}
+    engines: {node: '>= 0.4'}
+
+  has-tostringtag@1.0.2:
+    resolution: {integrity: sha1-LNxC1AvvLltO6rfAGnPFTOerWrw=, tarball: https://registry.npm.qianxin-inc.cn/has-tostringtag/download/has-tostringtag-1.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
+  hasown@2.0.2:
+    resolution: {integrity: sha1-AD6vkb563DcuhOxZ3DclLO24AAM=, tarball: https://registry.npm.qianxin-inc.cn/hasown/download/hasown-2.0.2.tgz}
+    engines: {node: '>= 0.4'}
+
+  htmlparser2@7.2.0:
+    resolution: {integrity: sha1-iBfN6ji7wyQ5KpCxmQkI6Bpl9aU=, tarball: https://registry.npm.qianxin-inc.cn/htmlparser2/download/htmlparser2-7.2.0.tgz}
+
+  is-core-module@2.13.1:
+    resolution: {integrity: sha1-rQ11Msb+qdoevcgnQtdFJcYnM4Q=, tarball: https://registry.npm.qianxin-inc.cn/is-core-module/download/is-core-module-2.13.1.tgz}
+
+  is-expression@4.0.0:
+    resolution: {integrity: sha1-wzFVliq/IdCv0lUlFNZ9LsFv0qs=, tarball: https://registry.npm.qianxin-inc.cn/is-expression/download/is-expression-4.0.0.tgz}
+
+  is-promise@2.2.2:
+    resolution: {integrity: sha1-OauVnMv5p3TPB597QMeib3YxNfE=, tarball: https://registry.npm.qianxin-inc.cn/is-promise/download/is-promise-2.2.2.tgz}
+
+  is-regex@1.1.4:
+    resolution: {integrity: sha1-7vVmPNWfpMCuM5UFMj32hUuxWVg=, tarball: https://registry.npm.qianxin-inc.cn/is-regex/download/is-regex-1.1.4.tgz}
+    engines: {node: '>= 0.4'}
+
+  js-stringify@1.0.2:
+    resolution: {integrity: sha1-Fzb939lyTyijaCrcYjCufk6Weds=, tarball: https://registry.npm.qianxin-inc.cn/js-stringify/download/js-stringify-1.0.2.tgz}
+
+  jsonc-parser@2.3.1:
+    resolution: {integrity: sha1-WVSRULEz8u+sykj+nOHsBlmvI0I=, tarball: https://registry.npm.qianxin-inc.cn/jsonc-parser/download/jsonc-parser-2.3.1.tgz}
+
+  jsonc-parser@3.3.1:
+    resolution: {integrity: sha1-8qUktPf9EePXkeVZl3rWC5i3mLQ=, tarball: https://registry.npm.qianxin-inc.cn/jsonc-parser/download/jsonc-parser-3.3.1.tgz}
+
+  jstransformer@1.0.0:
+    resolution: {integrity: sha1-7Yvwkh4vPx7U1cGkT2hwntJHIsM=, tarball: https://registry.npm.qianxin-inc.cn/jstransformer/download/jstransformer-1.0.0.tgz}
+
+  magic-string@0.30.11:
+    resolution: {integrity: sha1-MBpvk7PowssTrBp6ZzSSwN/RKVQ=, tarball: https://registry.npm.qianxin-inc.cn/magic-string/download/magic-string-0.30.11.tgz}
+
+  nanoid@3.3.7:
+    resolution: {integrity: sha1-0MMBppG8jVTvoKIibM8/4v1la9g=, tarball: https://registry.npm.qianxin-inc.cn/nanoid/download/nanoid-3.3.7.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  object-assign@4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=, tarball: https://registry.npm.qianxin-inc.cn/object-assign/download/object-assign-4.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  path-parse@1.0.7:
+    resolution: {integrity: sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=, tarball: https://registry.npm.qianxin-inc.cn/path-parse/download/path-parse-1.0.7.tgz}
+
+  picocolors@1.0.1:
+    resolution: {integrity: sha1-qK1Xm1cZUvDl0liS3lRFvP4lqqE=, tarball: https://registry.npm.qianxin-inc.cn/picocolors/download/picocolors-1.0.1.tgz}
+
+  postcss@8.4.41:
+    resolution: {integrity: sha1-1hBNO6Jy2IL+GPwH0V3C2mL6JoE=, tarball: https://registry.npm.qianxin-inc.cn/postcss/download/postcss-8.4.41.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+
+  promise@7.3.1:
+    resolution: {integrity: sha1-BktyYCsY+Q8pGSuLG8QY/9Hr078=, tarball: https://registry.npm.qianxin-inc.cn/promise/download/promise-7.3.1.tgz}
+
+  pug-attrs@3.0.0:
+    resolution: {integrity: sha1-sQRR4DSBZeMfrRzCPr3dncc0fEE=, tarball: https://registry.npm.qianxin-inc.cn/pug-attrs/download/pug-attrs-3.0.0.tgz}
+
+  pug-code-gen@3.0.2:
+    resolution: {integrity: sha1-rRkPSUMTO/GGtguA3kgxAOEy4s4=, tarball: https://registry.npm.qianxin-inc.cn/pug-code-gen/download/pug-code-gen-3.0.2.tgz}
+
+  pug-error@2.0.0:
+    resolution: {integrity: sha1-XGIXPLCcNN4qLOBPF7it/sdNjKU=, tarball: https://registry.npm.qianxin-inc.cn/pug-error/download/pug-error-2.0.0.tgz}
+
+  pug-filters@4.0.0:
+    resolution: {integrity: sha1-0+Sa9bqEcum3pm2YDnB86dLMm14=, tarball: https://registry.npm.qianxin-inc.cn/pug-filters/download/pug-filters-4.0.0.tgz}
+
+  pug-lexer@5.0.1:
+    resolution: {integrity: sha1-rkRijFvvmxkLZlaDsojKkCS4sNU=, tarball: https://registry.npm.qianxin-inc.cn/pug-lexer/download/pug-lexer-5.0.1.tgz}
+
+  pug-linker@4.0.0:
+    resolution: {integrity: sha1-EsvAWU/Fo+Brn8Web5PBRpYqdwg=, tarball: https://registry.npm.qianxin-inc.cn/pug-linker/download/pug-linker-4.0.0.tgz}
+
+  pug-load@3.0.0:
+    resolution: {integrity: sha1-n9nNpSICsIrbEdJWgfufNL1BtmI=, tarball: https://registry.npm.qianxin-inc.cn/pug-load/download/pug-load-3.0.0.tgz}
+
+  pug-parser@6.0.0:
+    resolution: {integrity: sha1-qP3ANYY6lbLB3F6/Ts+AtOdqEmA=, tarball: https://registry.npm.qianxin-inc.cn/pug-parser/download/pug-parser-6.0.0.tgz}
+
+  pug-runtime@3.0.1:
+    resolution: {integrity: sha1-9jaXYgRyPzWoxfb61qzaKhkbg9c=, tarball: https://registry.npm.qianxin-inc.cn/pug-runtime/download/pug-runtime-3.0.1.tgz}
+
+  pug-strip-comments@2.0.0:
+    resolution: {integrity: sha1-+UsH/WtJVSMzD0kKf1VLT/h2MD4=, tarball: https://registry.npm.qianxin-inc.cn/pug-strip-comments/download/pug-strip-comments-2.0.0.tgz}
+
+  pug-walk@2.0.0:
+    resolution: {integrity: sha1-QXqrwpIyu0SZtbUGmistKiTV9f4=, tarball: https://registry.npm.qianxin-inc.cn/pug-walk/download/pug-walk-2.0.0.tgz}
+
+  pug@3.0.2:
+    resolution: {integrity: sha1-81xxBzQ0VOQ7wnrg/3bHMbeOpTU=, tarball: https://registry.npm.qianxin-inc.cn/pug/download/pug-3.0.2.tgz}
+
+  request-light@0.5.8:
+    resolution: {integrity: sha1-i/c6ByQrnntgH6wvpdwioJSrzCc=, tarball: https://registry.npm.qianxin-inc.cn/request-light/download/request-light-0.5.8.tgz}
+
+  resolve@1.22.8:
+    resolution: {integrity: sha1-tsh6nyqgbfq1Lj1wrIzeMh+lpI0=, tarball: https://registry.npm.qianxin-inc.cn/resolve/download/resolve-1.22.8.tgz}
+    hasBin: true
+
+  rollup@2.77.3:
+    resolution: {integrity: sha1-jwBBjTonQANuFd62U77RqQ7gzBI=, tarball: https://registry.npm.qianxin-inc.cn/rollup/download/rollup-2.77.3.tgz}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+
+  semver@7.6.3:
+    resolution: {integrity: sha1-mA97VVC8F1+03AlAMIVif56zMUM=, tarball: https://registry.npm.qianxin-inc.cn/semver/download/semver-7.6.3.tgz}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  set-function-length@1.2.1:
+    resolution: {integrity: sha1-R8xZRfLHceLPJhxnN8+WhKKl5CU=, tarball: https://registry.npm.qianxin-inc.cn/set-function-length/download/set-function-length-1.2.1.tgz}
+    engines: {node: '>= 0.4'}
+
+  source-map-js@1.2.0:
+    resolution: {integrity: sha1-FrgJwWJRe1uMPn3NMVoqXCYSsq8=, tarball: https://registry.npm.qianxin-inc.cn/source-map-js/download/source-map-js-1.2.0.tgz}
+    engines: {node: '>=0.10.0'}
+
+  supports-preserve-symlinks-flag@1.0.0:
+    resolution: {integrity: sha1-btpL00SjyUrqN21MwxvHcxEDngk=, tarball: https://registry.npm.qianxin-inc.cn/supports-preserve-symlinks-flag/download/supports-preserve-symlinks-flag-1.0.0.tgz}
+    engines: {node: '>= 0.4'}
+
+  to-fast-properties@2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=, tarball: https://registry.npm.qianxin-inc.cn/to-fast-properties/download/to-fast-properties-2.0.0.tgz}
+    engines: {node: '>=4'}
+
+  token-stream@1.0.0:
+    resolution: {integrity: sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ=, tarball: https://registry.npm.qianxin-inc.cn/token-stream/download/token-stream-1.0.0.tgz}
+
+  typescript@4.9.5:
+    resolution: {integrity: sha1-CVl5+bzA0J2jJNWNA86Pg3TL5lo=, tarball: https://registry.npm.qianxin-inc.cn/typescript/download/typescript-4.9.5.tgz}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+
+  upath@2.0.1:
+    resolution: {integrity: sha1-UMc96mjW9rmQ9R0nnOYIFmXWGos=, tarball: https://registry.npm.qianxin-inc.cn/upath/download/upath-2.0.1.tgz}
+    engines: {node: '>=4'}
+
+  vite@2.9.18:
+    resolution: {integrity: sha1-dOKoOynageYC2sTCkzEsxXXwkcc=, tarball: https://registry.npm.qianxin-inc.cn/vite/download/vite-2.9.18.tgz}
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+
+  void-elements@3.1.0:
+    resolution: {integrity: sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=, tarball: https://registry.npm.qianxin-inc.cn/void-elements/download/void-elements-3.1.0.tgz}
+    engines: {node: '>=0.10.0'}
+
+  vscode-css-languageservice@5.4.2:
+    resolution: {integrity: sha1-aep0wAC9ZT38jkWKFyDSi5/6XPs=, tarball: https://registry.npm.qianxin-inc.cn/vscode-css-languageservice/download/vscode-css-languageservice-5.4.2.tgz}
+
+  vscode-html-languageservice@4.2.5:
+    resolution: {integrity: sha1-wMyP89gk0WOIu6wYfhgodJ7M8AY=, tarball: https://registry.npm.qianxin-inc.cn/vscode-html-languageservice/download/vscode-html-languageservice-4.2.5.tgz}
+
+  vscode-json-languageservice@4.2.1:
+    resolution: {integrity: sha1-lLb0cezhk79KHvN/arXM6G1QqLQ=, tarball: https://registry.npm.qianxin-inc.cn/vscode-json-languageservice/download/vscode-json-languageservice-4.2.1.tgz}
+
+  vscode-jsonrpc@8.1.0:
+    resolution: {integrity: sha1-y5mJxl4hnhhTPMOOdnYRJy0nTJQ=, tarball: https://registry.npm.qianxin-inc.cn/vscode-jsonrpc/download/vscode-jsonrpc-8.1.0.tgz}
+    engines: {node: '>=14.0.0'}
+
+  vscode-jsonrpc@8.2.1:
+    resolution: {integrity: sha1-oyLMDx2X95T/2cTNKomKC94JfzQ=, tarball: https://registry.npm.qianxin-inc.cn/vscode-jsonrpc/download/vscode-jsonrpc-8.2.1.tgz}
+    engines: {node: '>=14.0.0'}
+
+  vscode-languageserver-protocol@3.17.3:
+    resolution: {integrity: sha1-bQ1U2gk/DA7jBguBYSzODxEGDVc=, tarball: https://registry.npm.qianxin-inc.cn/vscode-languageserver-protocol/download/vscode-languageserver-protocol-3.17.3.tgz}
+
+  vscode-languageserver-textdocument@1.0.11:
+    resolution: {integrity: sha1-CCKgAOfU3AgzElgNdXX+njui4r8=, tarball: https://registry.npm.qianxin-inc.cn/vscode-languageserver-textdocument/download/vscode-languageserver-textdocument-1.0.11.tgz}
+
+  vscode-languageserver-types@3.17.3:
+    resolution: {integrity: sha1-ctBeR7c76TrLhNbjEbV4Y5DxP2Q=, tarball: https://registry.npm.qianxin-inc.cn/vscode-languageserver-types/download/vscode-languageserver-types-3.17.3.tgz}
+
+  vscode-languageserver-types@3.17.5:
+    resolution: {integrity: sha1-MnNnbwzy6rQLP0TQhay7fwijnYo=, tarball: https://registry.npm.qianxin-inc.cn/vscode-languageserver-types/download/vscode-languageserver-types-3.17.5.tgz}
+
+  vscode-languageserver@8.1.0:
+    resolution: {integrity: sha1-UCQlNxiRXYRXbOZmLdRqeRSY2Cc=, tarball: https://registry.npm.qianxin-inc.cn/vscode-languageserver/download/vscode-languageserver-8.1.0.tgz}
+    hasBin: true
+
+  vscode-nls@5.2.0:
+    resolution: {integrity: sha1-PLaJPdm9aVJE2KAkvfdG7qZlzD8=, tarball: https://registry.npm.qianxin-inc.cn/vscode-nls/download/vscode-nls-5.2.0.tgz}
+
+  vscode-pug-languageservice@0.29.8:
+    resolution: {integrity: sha1-PZX5dLwnPd2PWo+106yAZLLcY9E=, tarball: https://registry.npm.qianxin-inc.cn/vscode-pug-languageservice/download/vscode-pug-languageservice-0.29.8.tgz}
+    deprecated: 'WARNING: This project has been renamed to @volar/pug-language-service. Install using @volar/pug-language-service instead.'
+
+  vscode-typescript-languageservice@0.29.8:
+    resolution: {integrity: sha1-NwVy6Mmci4GQczpL/BtFxfkaoEQ=, tarball: https://registry.npm.qianxin-inc.cn/vscode-typescript-languageservice/download/vscode-typescript-languageservice-0.29.8.tgz}
+    deprecated: 'WARNING: This project has been renamed to @volar/typescript-language-service. Install using @volar/typescript-language-service instead.'
+
+  vscode-uri@2.1.2:
+    resolution: {integrity: sha1-yNQN6T61evMfPHFd1lDiyiwJbxw=, tarball: https://registry.npm.qianxin-inc.cn/vscode-uri/download/vscode-uri-2.1.2.tgz}
+
+  vscode-uri@3.0.8:
+    resolution: {integrity: sha1-F3CTjT5yWIZZoXLQ/UZCeACD/58=, tarball: https://registry.npm.qianxin-inc.cn/vscode-uri/download/vscode-uri-3.0.8.tgz}
+
+  vscode-vue-languageservice@0.29.8:
+    resolution: {integrity: sha1-bVmqtPuUIVuZtvfQ4qtzur05jQU=, tarball: https://registry.npm.qianxin-inc.cn/vscode-vue-languageservice/download/vscode-vue-languageservice-0.29.8.tgz}
+    deprecated: 'WARNING: This project has been renamed to @volar/vue-language-service. Install using @volar/vue-language-service instead.'
+
+  vue-tsc@0.29.8:
+    resolution: {integrity: sha1-9NjeXdh1YQfIeEicz5F40tcv/0c=, tarball: https://registry.npm.qianxin-inc.cn/vue-tsc/download/vue-tsc-0.29.8.tgz}
+    hasBin: true
+    peerDependencies:
+      typescript: '*'
+
+  vue@3.4.37:
+    resolution: {integrity: sha1-ZM4O643hain7dOUEd37owMHPIp4=, tarball: https://registry.npm.qianxin-inc.cn/vue/download/vue-3.4.37.tgz}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  with@7.0.2:
+    resolution: {integrity: sha1-zO461ULSVTinp6gKrSErmChJW6w=, tarball: https://registry.npm.qianxin-inc.cn/with/download/with-7.0.2.tgz}
+    engines: {node: '>= 10.0.0'}
+
+snapshots:
+
+  '@babel/helper-string-parser@7.24.8': {}
+
+  '@babel/helper-validator-identifier@7.24.7': {}
+
+  '@babel/parser@7.25.3':
+    dependencies:
+      '@babel/types': 7.25.2
+
+  '@babel/types@7.25.2':
+    dependencies:
+      '@babel/helper-string-parser': 7.24.8
+      '@babel/helper-validator-identifier': 7.24.7
+      to-fast-properties: 2.0.0
+
+  '@emmetio/abbreviation@2.3.3':
+    dependencies:
+      '@emmetio/scanner': 1.0.4
+
+  '@emmetio/css-abbreviation@2.1.8':
+    dependencies:
+      '@emmetio/scanner': 1.0.4
+
+  '@emmetio/scanner@1.0.4': {}
+
+  '@esbuild/linux-loong64@0.14.54':
+    optional: true
+
+  '@jridgewell/sourcemap-codec@1.5.0': {}
+
+  '@vitejs/plugin-vue@2.3.4(vite@2.9.18)(vue@3.4.37(typescript@4.9.5))':
+    dependencies:
+      vite: 2.9.18
+      vue: 3.4.37(typescript@4.9.5)
+
+  '@volar/code-gen@0.29.8':
+    dependencies:
+      '@volar/shared': 0.29.8
+      '@volar/source-map': 0.29.8
+
+  '@volar/html2pug@0.29.8':
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
+      htmlparser2: 7.2.0
+      pug: 3.0.2
+
+  '@volar/shared@0.29.8':
+    dependencies:
+      upath: 2.0.1
+      vscode-jsonrpc: 8.2.1
+      vscode-uri: 3.0.8
+
+  '@volar/source-map@0.29.8':
+    dependencies:
+      '@volar/shared': 0.29.8
+
+  '@volar/transforms@0.29.8':
+    dependencies:
+      '@volar/shared': 0.29.8
+      vscode-languageserver: 8.1.0
+
+  '@volar/vue-code-gen@0.29.8':
+    dependencies:
+      '@volar/code-gen': 0.29.8
+      '@volar/shared': 0.29.8
+      '@volar/source-map': 0.29.8
+      '@vue/compiler-core': 3.4.37
+      '@vue/compiler-dom': 3.4.37
+      '@vue/shared': 3.4.37
+      upath: 2.0.1
+
+  '@vscode/emmet-helper@2.9.2':
+    dependencies:
+      emmet: 2.4.4
+      jsonc-parser: 2.3.1
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-uri: 2.1.2
+
+  '@vue/compiler-core@3.4.37':
+    dependencies:
+      '@babel/parser': 7.25.3
+      '@vue/shared': 3.4.37
+      entities: 5.0.0
+      estree-walker: 2.0.2
+      source-map-js: 1.2.0
+
+  '@vue/compiler-dom@3.4.37':
+    dependencies:
+      '@vue/compiler-core': 3.4.37
+      '@vue/shared': 3.4.37
+
+  '@vue/compiler-sfc@3.4.37':
+    dependencies:
+      '@babel/parser': 7.25.3
+      '@vue/compiler-core': 3.4.37
+      '@vue/compiler-dom': 3.4.37
+      '@vue/compiler-ssr': 3.4.37
+      '@vue/shared': 3.4.37
+      estree-walker: 2.0.2
+      magic-string: 0.30.11
+      postcss: 8.4.41
+      source-map-js: 1.2.0
+
+  '@vue/compiler-ssr@3.4.37':
+    dependencies:
+      '@vue/compiler-dom': 3.4.37
+      '@vue/shared': 3.4.37
+
+  '@vue/reactivity@3.4.37':
+    dependencies:
+      '@vue/shared': 3.4.37
+
+  '@vue/runtime-core@3.4.37':
+    dependencies:
+      '@vue/reactivity': 3.4.37
+      '@vue/shared': 3.4.37
+
+  '@vue/runtime-dom@3.4.37':
+    dependencies:
+      '@vue/reactivity': 3.4.37
+      '@vue/runtime-core': 3.4.37
+      '@vue/shared': 3.4.37
+      csstype: 3.1.3
+
+  '@vue/server-renderer@3.4.37(vue@3.4.37(typescript@4.9.5))':
+    dependencies:
+      '@vue/compiler-ssr': 3.4.37
+      '@vue/shared': 3.4.37
+      vue: 3.4.37(typescript@4.9.5)
+
+  '@vue/shared@3.4.37': {}
+
+  acorn@7.4.1: {}
+
+  asap@2.0.6: {}
+
+  assert-never@1.2.1: {}
+
+  babel-walk@3.0.0-canary-5:
+    dependencies:
+      '@babel/types': 7.25.2
+
+  call-bind@1.0.7:
+    dependencies:
+      es-define-property: 1.0.0
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      get-intrinsic: 1.2.4
+      set-function-length: 1.2.1
+
+  character-parser@2.2.0:
+    dependencies:
+      is-regex: 1.1.4
+
+  constantinople@4.0.1:
+    dependencies:
+      '@babel/parser': 7.25.3
+      '@babel/types': 7.25.2
+
+  csstype@3.1.3: {}
+
+  define-data-property@1.1.4:
+    dependencies:
+      es-define-property: 1.0.0
+      es-errors: 1.3.0
+      gopd: 1.0.1
+
+  doctypes@1.1.0: {}
+
+  dom-serializer@1.4.1:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
+      entities: 2.2.0
+
+  domelementtype@2.3.0: {}
+
+  domhandler@4.3.1:
+    dependencies:
+      domelementtype: 2.3.0
+
+  domutils@2.8.0:
+    dependencies:
+      dom-serializer: 1.4.1
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
+
+  emmet@2.4.4:
+    dependencies:
+      '@emmetio/abbreviation': 2.3.3
+      '@emmetio/css-abbreviation': 2.1.8
+
+  entities@2.2.0: {}
+
+  entities@3.0.1: {}
+
+  entities@5.0.0: {}
+
+  es-define-property@1.0.0:
+    dependencies:
+      get-intrinsic: 1.2.4
+
+  es-errors@1.3.0: {}
+
+  esbuild-android-64@0.14.54:
+    optional: true
+
+  esbuild-android-arm64@0.14.54:
+    optional: true
+
+  esbuild-darwin-64@0.14.54:
+    optional: true
+
+  esbuild-darwin-arm64@0.14.54:
+    optional: true
+
+  esbuild-freebsd-64@0.14.54:
+    optional: true
+
+  esbuild-freebsd-arm64@0.14.54:
+    optional: true
+
+  esbuild-linux-32@0.14.54:
+    optional: true
+
+  esbuild-linux-64@0.14.54:
+    optional: true
+
+  esbuild-linux-arm64@0.14.54:
+    optional: true
+
+  esbuild-linux-arm@0.14.54:
+    optional: true
+
+  esbuild-linux-mips64le@0.14.54:
+    optional: true
+
+  esbuild-linux-ppc64le@0.14.54:
+    optional: true
+
+  esbuild-linux-riscv64@0.14.54:
+    optional: true
+
+  esbuild-linux-s390x@0.14.54:
+    optional: true
+
+  esbuild-netbsd-64@0.14.54:
+    optional: true
+
+  esbuild-openbsd-64@0.14.54:
+    optional: true
+
+  esbuild-sunos-64@0.14.54:
+    optional: true
+
+  esbuild-windows-32@0.14.54:
+    optional: true
+
+  esbuild-windows-64@0.14.54:
+    optional: true
+
+  esbuild-windows-arm64@0.14.54:
+    optional: true
+
+  esbuild@0.14.54:
+    optionalDependencies:
+      '@esbuild/linux-loong64': 0.14.54
+      esbuild-android-64: 0.14.54
+      esbuild-android-arm64: 0.14.54
+      esbuild-darwin-64: 0.14.54
+      esbuild-darwin-arm64: 0.14.54
+      esbuild-freebsd-64: 0.14.54
+      esbuild-freebsd-arm64: 0.14.54
+      esbuild-linux-32: 0.14.54
+      esbuild-linux-64: 0.14.54
+      esbuild-linux-arm: 0.14.54
+      esbuild-linux-arm64: 0.14.54
+      esbuild-linux-mips64le: 0.14.54
+      esbuild-linux-ppc64le: 0.14.54
+      esbuild-linux-riscv64: 0.14.54
+      esbuild-linux-s390x: 0.14.54
+      esbuild-netbsd-64: 0.14.54
+      esbuild-openbsd-64: 0.14.54
+      esbuild-sunos-64: 0.14.54
+      esbuild-windows-32: 0.14.54
+      esbuild-windows-64: 0.14.54
+      esbuild-windows-arm64: 0.14.54
+
+  estree-walker@2.0.2: {}
+
+  fsevents@2.3.3:
+    optional: true
+
+  function-bind@1.1.2: {}
+
+  get-intrinsic@1.2.4:
+    dependencies:
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      has-proto: 1.0.3
+      has-symbols: 1.0.3
+      hasown: 2.0.2
+
+  gopd@1.0.1:
+    dependencies:
+      get-intrinsic: 1.2.4
+
+  has-property-descriptors@1.0.2:
+    dependencies:
+      es-define-property: 1.0.0
+
+  has-proto@1.0.3: {}
+
+  has-symbols@1.0.3: {}
+
+  has-tostringtag@1.0.2:
+    dependencies:
+      has-symbols: 1.0.3
+
+  hasown@2.0.2:
+    dependencies:
+      function-bind: 1.1.2
+
+  htmlparser2@7.2.0:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
+      domutils: 2.8.0
+      entities: 3.0.1
+
+  is-core-module@2.13.1:
+    dependencies:
+      hasown: 2.0.2
+
+  is-expression@4.0.0:
+    dependencies:
+      acorn: 7.4.1
+      object-assign: 4.1.1
+
+  is-promise@2.2.2: {}
+
+  is-regex@1.1.4:
+    dependencies:
+      call-bind: 1.0.7
+      has-tostringtag: 1.0.2
+
+  js-stringify@1.0.2: {}
+
+  jsonc-parser@2.3.1: {}
+
+  jsonc-parser@3.3.1: {}
+
+  jstransformer@1.0.0:
+    dependencies:
+      is-promise: 2.2.2
+      promise: 7.3.1
+
+  magic-string@0.30.11:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.0
+
+  nanoid@3.3.7: {}
+
+  object-assign@4.1.1: {}
+
+  path-parse@1.0.7: {}
+
+  picocolors@1.0.1: {}
+
+  postcss@8.4.41:
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.1
+      source-map-js: 1.2.0
+
+  promise@7.3.1:
+    dependencies:
+      asap: 2.0.6
+
+  pug-attrs@3.0.0:
+    dependencies:
+      constantinople: 4.0.1
+      js-stringify: 1.0.2
+      pug-runtime: 3.0.1
+
+  pug-code-gen@3.0.2:
+    dependencies:
+      constantinople: 4.0.1
+      doctypes: 1.1.0
+      js-stringify: 1.0.2
+      pug-attrs: 3.0.0
+      pug-error: 2.0.0
+      pug-runtime: 3.0.1
+      void-elements: 3.1.0
+      with: 7.0.2
+
+  pug-error@2.0.0: {}
+
+  pug-filters@4.0.0:
+    dependencies:
+      constantinople: 4.0.1
+      jstransformer: 1.0.0
+      pug-error: 2.0.0
+      pug-walk: 2.0.0
+      resolve: 1.22.8
+
+  pug-lexer@5.0.1:
+    dependencies:
+      character-parser: 2.2.0
+      is-expression: 4.0.0
+      pug-error: 2.0.0
+
+  pug-linker@4.0.0:
+    dependencies:
+      pug-error: 2.0.0
+      pug-walk: 2.0.0
+
+  pug-load@3.0.0:
+    dependencies:
+      object-assign: 4.1.1
+      pug-walk: 2.0.0
+
+  pug-parser@6.0.0:
+    dependencies:
+      pug-error: 2.0.0
+      token-stream: 1.0.0
+
+  pug-runtime@3.0.1: {}
+
+  pug-strip-comments@2.0.0:
+    dependencies:
+      pug-error: 2.0.0
+
+  pug-walk@2.0.0: {}
+
+  pug@3.0.2:
+    dependencies:
+      pug-code-gen: 3.0.2
+      pug-filters: 4.0.0
+      pug-lexer: 5.0.1
+      pug-linker: 4.0.0
+      pug-load: 3.0.0
+      pug-parser: 6.0.0
+      pug-runtime: 3.0.1
+      pug-strip-comments: 2.0.0
+
+  request-light@0.5.8: {}
+
+  resolve@1.22.8:
+    dependencies:
+      is-core-module: 2.13.1
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+
+  rollup@2.77.3:
+    optionalDependencies:
+      fsevents: 2.3.3
+
+  semver@7.6.3: {}
+
+  set-function-length@1.2.1:
+    dependencies:
+      define-data-property: 1.1.4
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      get-intrinsic: 1.2.4
+      gopd: 1.0.1
+      has-property-descriptors: 1.0.2
+
+  source-map-js@1.2.0: {}
+
+  supports-preserve-symlinks-flag@1.0.0: {}
+
+  to-fast-properties@2.0.0: {}
+
+  token-stream@1.0.0: {}
+
+  typescript@4.9.5: {}
+
+  upath@2.0.1: {}
+
+  vite@2.9.18:
+    dependencies:
+      esbuild: 0.14.54
+      postcss: 8.4.41
+      resolve: 1.22.8
+      rollup: 2.77.3
+    optionalDependencies:
+      fsevents: 2.3.3
+
+  void-elements@3.1.0: {}
+
+  vscode-css-languageservice@5.4.2:
+    dependencies:
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-nls: 5.2.0
+      vscode-uri: 3.0.8
+
+  vscode-html-languageservice@4.2.5:
+    dependencies:
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-nls: 5.2.0
+      vscode-uri: 3.0.8
+
+  vscode-json-languageservice@4.2.1:
+    dependencies:
+      jsonc-parser: 3.3.1
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-nls: 5.2.0
+      vscode-uri: 3.0.8
+
+  vscode-jsonrpc@8.1.0: {}
+
+  vscode-jsonrpc@8.2.1: {}
+
+  vscode-languageserver-protocol@3.17.3:
+    dependencies:
+      vscode-jsonrpc: 8.1.0
+      vscode-languageserver-types: 3.17.3
+
+  vscode-languageserver-textdocument@1.0.11: {}
+
+  vscode-languageserver-types@3.17.3: {}
+
+  vscode-languageserver-types@3.17.5: {}
+
+  vscode-languageserver@8.1.0:
+    dependencies:
+      vscode-languageserver-protocol: 3.17.3
+
+  vscode-nls@5.2.0: {}
+
+  vscode-pug-languageservice@0.29.8:
+    dependencies:
+      '@volar/code-gen': 0.29.8
+      '@volar/shared': 0.29.8
+      '@volar/source-map': 0.29.8
+      '@volar/transforms': 0.29.8
+      pug-lexer: 5.0.1
+      pug-parser: 6.0.0
+      vscode-languageserver: 8.1.0
+
+  vscode-typescript-languageservice@0.29.8:
+    dependencies:
+      '@volar/shared': 0.29.8
+      semver: 7.6.3
+      upath: 2.0.1
+      vscode-languageserver: 8.1.0
+      vscode-languageserver-textdocument: 1.0.11
+
+  vscode-uri@2.1.2: {}
+
+  vscode-uri@3.0.8: {}
+
+  vscode-vue-languageservice@0.29.8:
+    dependencies:
+      '@volar/code-gen': 0.29.8
+      '@volar/html2pug': 0.29.8
+      '@volar/shared': 0.29.8
+      '@volar/source-map': 0.29.8
+      '@volar/transforms': 0.29.8
+      '@volar/vue-code-gen': 0.29.8
+      '@vscode/emmet-helper': 2.9.2
+      '@vue/reactivity': 3.4.37
+      '@vue/shared': 3.4.37
+      request-light: 0.5.8
+      upath: 2.0.1
+      vscode-css-languageservice: 5.4.2
+      vscode-html-languageservice: 4.2.5
+      vscode-json-languageservice: 4.2.1
+      vscode-languageserver: 8.1.0
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-pug-languageservice: 0.29.8
+      vscode-typescript-languageservice: 0.29.8
+
+  vue-tsc@0.29.8(typescript@4.9.5):
+    dependencies:
+      '@volar/shared': 0.29.8
+      typescript: 4.9.5
+      vscode-vue-languageservice: 0.29.8
+
+  vue@3.4.37(typescript@4.9.5):
+    dependencies:
+      '@vue/compiler-dom': 3.4.37
+      '@vue/compiler-sfc': 3.4.37
+      '@vue/runtime-dom': 3.4.37
+      '@vue/server-renderer': 3.4.37(vue@3.4.37(typescript@4.9.5))
+      '@vue/shared': 3.4.37
+    optionalDependencies:
+      typescript: 4.9.5
+
+  with@7.0.2:
+    dependencies:
+      '@babel/parser': 7.25.3
+      '@babel/types': 7.25.2
+      assert-never: 1.2.1
+      babel-walk: 3.0.0-canary-5
