@@ -1,6 +1,7 @@
 import { COLOR_MAP } from "./constants";
 import { DataType, EdgesType, NodeType } from "./type";
 import * as d3 from "d3";
+const R = 50;
 
 export class D3ForceGraph {
   svg: any;
@@ -12,6 +13,10 @@ export class D3ForceGraph {
   edgesData: EdgesType[];
   options: Record<string, any>;
   constructor(data: DataType, options: Record<string, any>) {
+    const el = document.querySelector(options.el);
+    options.width = el.offsetWidth;
+    options.height = el.offsetHeight;
+
     this.svg = d3
       .select(options.el)
       .append("svg")
@@ -43,7 +48,14 @@ export class D3ForceGraph {
       .force(
         "center",
         d3.forceCenter(this.options.width / 2, this.options.height / 2)
-      );
+      )
+      .force("y", d3.forceY().strength(0.025))
+      .force("x", d3.forceX().strength(0.025))
+      .force(
+        "collision",
+        d3.forceCollide().radius((d) => R + 10)
+      )
+      .force("link", d3.forceLink(this.edgesData).distance(100));
   }
   // 绘制节点
   createNode() {
@@ -54,7 +66,7 @@ export class D3ForceGraph {
       .data(this.nodesData)
       .enter()
       .append("circle")
-      .attr("r", 5)
+      .attr("r", R)
       .attr("fill", function (d: NodeType) {
         return COLOR_MAP[d.group + ""]; // 根据组别设置颜色
       })
@@ -71,8 +83,9 @@ export class D3ForceGraph {
   createLink() {
     this.links = this.svg
       .append("g")
-      .attr("stroke", "#999")
-      .attr("stroke-opacity", 0.6)
+      .attr("stroke", "#c30")
+      .attr("stroke-width", "2")
+      .attr("stroke-opacity", 1)
       .selectAll("line")
       .data(this.edgesData)
       .enter()
@@ -108,8 +121,8 @@ export class D3ForceGraph {
         .attr("x2", function (d: any) {
           return d.target.x;
         })
-        .attr("x2", function (d: any) {
-          return d.target.x;
+        .attr("y2", function (d: any) {
+          return d.target.y;
         });
     });
   }

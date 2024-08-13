@@ -11,7 +11,6 @@ let graph;
 
 onMounted(() => {
   nextTick(() => {
-    debugger;
     graph = new D3ForceGraph(
       {
         nodes,
